@@ -9,7 +9,7 @@ export const SearchHeader = () => {
           <Activity className="w-8 h-8 text-white" />
         </div>
         <h1 className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
-          Hey ABC
+          Hey John
         </h1>
       </div>
       <p className="text-lg text-slate-600 max-w-2xl mx-auto">
