@@ -20,7 +20,7 @@ export const SearchBar = ({ onSearch, isLoading }: SearchBarProps) => {
   const handleInputChange = (value: string) => {
     setQuery(value);
     // Trigger search on every keystroke for real-time results
-    if (value.length > 2) {
+    if (value.length > 10) {
       onSearch(value);
     } else if (value.length === 0) {
       onSearch('');
